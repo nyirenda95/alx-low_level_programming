@@ -3,7 +3,7 @@
 /**
  * main-printing in c
  *
- * Return:Always O (successful)
+ * Return: O (successful)
  */
 int main(void)
 {
