@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main-printing
+ * main-printing in c
  *
  * Return:Always O (successful)
  */
 int main(void)
 {
-	puts("\"software engineering Program is like a solving puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return(0);
 }
