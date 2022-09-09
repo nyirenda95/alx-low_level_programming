@@ -14,7 +14,7 @@ int main(void)
 	/*your code goes there */
 	#include <stdio.h>
 	int lastDigit = n% 10;
-	char *str = "Last digit of";
+	char *str = "Last digit of"
 
 	if(lastDigit > 5)
 	{
