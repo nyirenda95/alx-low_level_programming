@@ -12,6 +12,6 @@ int main(void)
 	{
 		putchar(num);
 	}
-	putchar(spacer);
+	putchar(space);
 	return(0);
 }
