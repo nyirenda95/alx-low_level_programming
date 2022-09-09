@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main-printing in c
+ * main-print the string  in the put file
  *
  * Return: O (successful)
  */
 int main(void)
 {
-	puts ("\"Programming is like building a multilingual puzzle");
+	putsi("\"Programming is like building a multilingual puzzle");
 	return(0);
 }
