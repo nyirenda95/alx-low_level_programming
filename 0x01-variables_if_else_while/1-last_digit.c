@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
+/*more headers goes there*/
+
+/*betty style doc for function main goes there*/
 
 /**
  * main -Entry point
- * return: Always 0 (success)
+ * Return: Ailways 0 (success)
  *
  */
 int main(void)
@@ -14,7 +17,7 @@ int main(void)
 	/*your code goes there */
 	#include <stdio.h>
 	int lastDigit = n% 10;
-	char *str = "Last digit of"
+	char *str = "Last digit of";
 
 	if(lastDigit > 5)
 	{
