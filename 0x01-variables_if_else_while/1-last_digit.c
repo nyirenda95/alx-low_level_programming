@@ -1,38 +1,33 @@
-#include <stdlib.h>
-#include <time.h>
-/*more headers goes there*/
-
-/*betty style doc for function main goes there*/
+#include <stdio.h>
 
 /**
- * main -Entry point
- * Return: Ailways 0 (success)
+ * main - Prints all possibe combinations of two two-digit numbers,
+ * ranging from 0-99, separated by a comma followed by space
  *
+ * Return: Always 0.
  */
 int main(void)
 {
-	int n;
+	int num1, num2;
 
+	for (num1 = 0; num1 <= 98; num2++)
+	{
+		for (num2 = num1 + 1; num2 <= 99; num2++)
+		{
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
 
-	srand(time(0));
-	n = rand() -RAND_MAX / 2;
-	/*your code goes there */
-	#include <stdio.h>
-	int lastDigit = n % 10;
-	char *str = "Last digit of";
+			if (num1 == 98 && num2 == 99)
+				continue;
+			
+			putchar(',');
+			putchar(' ');
+		}
+	}
 
-	if((n % 10) > 5)
-	{
-		printf("Last digit of %d is %d and is greater than 5\n",n,n % 10);
-	}
-	else (((n % 10) < 6 && (n % 10) != 0))
-	{
-		printf("Last digit of %d is %d and is 0\n",n, n % 10);
-	}
-	else if(lastDigit < 6 && lastDigit != 0)
-	{
-		printf("%d %d is %d and is less than 6 and not 0\n",str,n,lastDigit);
-	}
+	putchar('\n');
 	return (0);
-}
-		
+}	
