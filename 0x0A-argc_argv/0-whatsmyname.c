@@ -1,5 +1,6 @@
+#include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
  * main - Prints the number of arguments passed into mainmain - Prints the number of arguments passed into main
