@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the name or the file programe was compiled
- * return: 0
+ * main - prints the name or the file programe was compiled from
+ * return: Always 0
  */
 int main(void)
 {
