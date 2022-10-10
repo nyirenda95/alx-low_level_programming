@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - prints the name or the file programe was compiled from
- * return: Always 0
+ * Return: 0
  */
+
 int main(void)
 {
 	printf('%s\n', _FILE_);
