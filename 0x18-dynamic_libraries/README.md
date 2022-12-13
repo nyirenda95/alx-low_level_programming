@@ -1,1 +1,1 @@
-all my file on 0x18. C - Dynamic libraries
+all my files on Dynamic libraries
